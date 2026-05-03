@@ -1,0 +1,46 @@
+{
+  "section1": {
+    "files": [
+      {
+        "url": "static/data/animations.json",
+        "type": "animation",
+        "key": "animations"
+      },
+      {
+        "url": "static/images/burger_spritesheet.png",
+        "frameConfig": {
+          "frameWidth": 32,
+          "frameHeight": 32,
+          "startFrame": 0,
+          "endFrame": -1,
+          "spacing": 0,
+          "margin": 0
+        },
+        "type": "spritesheet",
+        "key": "burger_spritesheet"
+      },
+      {
+        "url": "static/images/dino.png",
+        "key": "dino",
+        "type": "image"
+      },
+      {
+        "url": "static/images/guapen.png",
+        "type": "image",
+        "key": "guapen"
+      },
+      {
+        "url": "static/images/tile.png",
+        "type": "image",
+        "key": "tile"
+      }
+    ]
+  },
+  "meta": {
+    "app": "Phaser Editor 2D - Asset Pack Editor",
+    "contentType": "phasereditor2d.pack.core.AssetContentType",
+    "url": "https://phasereditor2d.com",
+    "version": 2,
+    "showAllFilesInBlocks": false
+  }
+}
