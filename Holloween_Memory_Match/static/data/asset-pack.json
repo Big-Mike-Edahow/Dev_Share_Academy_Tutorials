@@ -1,0 +1,60 @@
+{
+  "section1": {
+    "files": [
+      {
+        "url": ["static/audio/background.mp3"],
+        "type": "audio",
+        "key": "background"
+      },
+      {
+        "url": "static/images/background.png",
+        "type": "image",
+        "key": "background_1"
+      },
+      {
+        "url": "static/images/clickToPlay.png",
+        "type": "image",
+        "key": "clickToPlay"
+      },
+      {
+        "url": "static/images/clickToPlayAgain.png",
+        "type": "image",
+        "key": "clickToPlayAgain"
+      },
+      {
+        "url": "static/images/dino.png",
+        "key": "dino",
+        "type": "image"
+      },
+      {
+        "url": "static/images/fullscreen.png",
+        "frameConfig": {
+          "frameWidth": 64,
+          "frameHeight": 64,
+          "startFrame": 0,
+          "endFrame": -1,
+          "spacing": 0,
+          "margin": 0
+        },
+        "type": "spritesheet",
+        "key": "fullscreen"
+      },
+      {
+        "url": "static/images/nice.png",
+        "type": "image",
+        "key": "nice"
+      },
+      {
+        "atlasURL": "static/data/spritesheet.json",
+        "textureURL": "static/images/spritesheet.png",
+        "type": "atlas",
+        "key": "spritesheet"
+      },
+      {
+        "url": "static/images/title.png",
+        "type": "image",
+        "key": "title"
+      }
+    ]
+  }
+}
