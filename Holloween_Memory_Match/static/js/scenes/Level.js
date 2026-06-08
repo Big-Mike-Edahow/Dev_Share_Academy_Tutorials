@@ -91,6 +91,12 @@ export default class Level extends Phaser.Scene {
     // sceneRestart
     new SceneRestart(animationConfigBase_4);
 
+    // clickToPlayAgain
+    const clickToPlayAgain = this.add.image(640, 830, "clickToPlayAgain");
+
+    // animationConfigBase
+    const animationConfigBase = new AnimationConfigBase(clickToPlayAgain);
+
     // gamePlay
     const gamePlay = new GamePlay(this);
 
@@ -109,7 +115,7 @@ export default class Level extends Phaser.Scene {
       card_1,
       card_12,
     ];
-    const gameOverScriptNodes = [scaleNiceText];
+    const gameOverScriptNodes = [animationConfigBase, scaleNiceText];
 
     // card_12 (prefab fields)
     card_12.cardFrontTextureConfig = { key: "spritesheet", frame: "Skull.png" };
@@ -164,6 +170,13 @@ export default class Level extends Phaser.Scene {
     animationConfigBase_2.duration = 800;
     animationConfigBase_2.property = "y";
     animationConfigBase_2.target = nice;
+
+    // animationConfigBase_3 (prefab fields)
+    animationConfigBase_3.to = 1200;
+    animationConfigBase_3.from = 628;
+    animationConfigBase_3.duration = 800;
+    animationConfigBase_3.property = "y";
+    animationConfigBase_3.target = clickToPlayAgain;
 
     // animationConfigBase_4 (prefab fields)
     animationConfigBase_4.to = 1200;

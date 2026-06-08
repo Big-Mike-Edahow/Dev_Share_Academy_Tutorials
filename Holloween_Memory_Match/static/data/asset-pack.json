@@ -22,11 +22,6 @@
         "key": "clickToPlayAgain"
       },
       {
-        "url": "static/images/dino.png",
-        "key": "dino",
-        "type": "image"
-      },
-      {
         "url": "static/images/fullscreen.png",
         "frameConfig": {
           "frameWidth": 64,
