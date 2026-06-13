@@ -1,0 +1,122 @@
+{
+  "section1": {
+    "files": [
+      {
+        "url": "static/images/animated_props.png",
+        "frameConfig": {
+          "frameWidth": 16,
+          "frameHeight": 16,
+          "startFrame": 0,
+          "endFrame": -1,
+          "spacing": 0,
+          "margin": 0
+        },
+        "type": "spritesheet",
+        "key": "animated_props"
+      },
+      {
+        "url": "static/data/animations.json",
+        "type": "animation",
+        "key": "animations"
+      },
+      {
+        "url": "static/images/arrow_keys.png",
+        "type": "image",
+        "key": "arrow_keys"
+      },
+      {
+        "url": "static/images/elf.png",
+        "frameConfig": {
+          "frameWidth": 16,
+          "frameHeight": 16,
+          "startFrame": 0,
+          "endFrame": -1,
+          "spacing": 0,
+          "margin": 0
+        },
+        "type": "spritesheet",
+        "key": "elf"
+      },
+      {
+        "url": "static/images/enter_key.png",
+        "type": "image",
+        "key": "enter_key"
+      },
+      {
+        "url": "static/images/grounds.png",
+        "frameConfig": {
+          "frameWidth": 16,
+          "frameHeight": 16,
+          "startFrame": 0,
+          "endFrame": -1,
+          "spacing": 0,
+          "margin": 0
+        },
+        "type": "spritesheet",
+        "key": "grounds"
+      },
+      {
+        "url": "static/images/level_panel.png",
+        "frameConfig": {
+          "frameWidth": 18,
+          "frameHeight": 18,
+          "startFrame": 0,
+          "endFrame": -1,
+          "spacing": 6,
+          "margin": 0
+        },
+        "type": "spritesheet",
+        "key": "level_panel"
+      },
+      {
+        "url": "static/images/menu.png",
+        "type": "image",
+        "key": "menu"
+      },
+      {
+        "url": "static/images/props.png",
+        "frameConfig": {
+          "frameWidth": 16,
+          "frameHeight": 16,
+          "startFrame": 0,
+          "endFrame": -1,
+          "spacing": 0,
+          "margin": 0
+        },
+        "type": "spritesheet",
+        "key": "props"
+      },
+      {
+        "url": "static/images/r_key.png",
+        "type": "image",
+        "key": "r_key"
+      },
+      {
+        "url": "static/images/title.png",
+        "type": "image",
+        "key": "title"
+      },
+      {
+        "url": "static/images/walls.png",
+        "frameConfig": {
+          "frameWidth": 16,
+          "frameHeight": 16,
+          "startFrame": 0,
+          "endFrame": -1,
+          "spacing": 0,
+          "margin": 0
+        },
+        "type": "spritesheet",
+        "key": "walls"
+      }
+    ]
+  },
+  "meta": {
+    "app": "Phaser Editor 2D - Asset Pack Editor",
+    "contentType": "phasereditor2d.pack.core.AssetContentType",
+    "url": "https://phasereditor2d.com",
+    "version": 2,
+    "showAllFilesInBlocks": false,
+    "visible": true
+  }
+}
